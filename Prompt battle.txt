@@ -1,0 +1,371 @@
+Prompt 1:
+{
+  "format": "cinematic_timeline_documentary",
+  "total_duration": 24,
+  "aspect_ratio": "16:9",
+  "visual_style": "photorealistic_documentary_film",
+
+  "rules": {
+    "subject_consistency": "strict",
+    "no_modern_elements": true,
+    "no_animation_motion": true,
+    "no_face_or_body_changes": true,
+    "natural_human_speed_only": true
+  },
+
+  "camera_profile": {
+    "lens": "35mm_real_world",
+    "height": "human_eye_level",
+    "movement_quality": "tripod_smooth_professional",
+    "camera_shake": "none"
+  },
+
+  "timeline": [
+    {
+      "time_range": "0-8s",
+      "location": "rural_south_indian_village_morning",
+      "lighting": "warm_morning_sunlight_soft_shadows",
+      "camera_motion": "slow_horizontal_pan_left_to_right",
+      "environment_details": [
+        "stone_well",
+        "thatched_huts",
+        "palm_trees",
+        "dusty_ground",
+        "fresh_ploughed_field",
+        "birds_flying"
+      ],
+      "human_activity": [
+        "children_playing_kabaddi_and_gilli_danda_barefoot",
+        "women_drawing_water_with_metal_pots",
+        "men_guiding_bullock_cart_in_field"
+      ],
+      "micro_motion": [
+        "saree_edges_moving_in_breeze",
+        "bullock_tail_head_small_movements",
+        "tree_leaves_swaying"
+      ]
+    },
+    {
+      "time_range": "8-16s",
+      "location": "old_urban_south_indian_street_evening",
+      "lighting": "golden_evening_light_long_shadows",
+      "camera_motion": "slow_forward_tracking_shot",
+      "environment_details": [
+        "aged_shops_signboards",
+        "narrow_lane",
+        "textured_walls",
+        "tea_stall",
+        "electrical_wires"
+      ],
+      "human_activity": [
+        "elderly_men_reading_newspapers_on_bench",
+        "tea_vendor_serving_people_chatting",
+        "postman_walking_with_letter_bag",
+        "children_playing_street_cricket_background"
+      ],
+      "micro_motion": [
+        "paper_page_turns",
+        "hand_gestures_small",
+        "natural_walking_speed"
+      ]
+    },
+    {
+      "time_range": "16-24s",
+      "location": "modest_urban_home_night",
+      "lighting": "soft_white_tubelight_room_glow",
+      "camera_motion": "static_medium_wide_corner_frame",
+      "environment_details": [
+        "wooden_table_radio",
+        "wall_clock",
+        "textured_wall",
+        "simple_furniture"
+      ],
+      "human_activity": [
+        "father_reading_newspaper",
+        "mother_stitching_clothes",
+        "boy_and_girl_doing_homework_on_floor"
+      ],
+      "micro_motion": [
+        "slow_page_turn",
+        "tiny_hand_stitching_motion",
+        "writing_in_notebook"
+      ],
+      "ambient_audio_hint": [
+        "clock_ticking",
+        "soft_radio_sound",
+        "room_silence"
+      ]
+    }
+  ],
+
+  "color_tone_progression": [
+    "morning_warmth",
+    "evening_gold",
+    "night_neutral_indoor"
+  ],
+
+  "ending_overlay": {
+    "fade_in_text": [
+      "Life without Internet",
+      "Joy of Life"
+    ],
+    "second_line_style": "italic"
+  },
+
+  "render_preferences": {
+    "skin_texture_realism": "high",
+    "documentary_color_grading": true,
+    "detail_level": "very_high"
+  }
+}
+
+
+Prompt 2:
+{
+  "scene_type": "single_continuous_shot_with_indoor_transition",
+  "duration_seconds": 20,
+  "aspect_ratio": "16:9",
+  "style": "ultra_photorealistic_documentary",
+  "camera": {
+    "lens": "35mm",
+    "height": "eye_level",
+    "movement_part1": "very_slow_forward_dolly_with_soft_pan",
+    "movement_part2": "static_medium_frame",
+    "stability": "tripod_smooth",
+    "shake": "none",
+    "cut": "no_cuts_single_take"
+  },
+  "environment": {
+    "era": "south_india_pre_internet",
+    "modern_objects": "none",
+    "vehicles": "none",
+    "digital_screens": "none",
+    "advertisements": "none"
+  },
+  "temporal_progression": {
+    "time_flow": "late_evening_to_night_continuous",
+    "lighting_transition": [
+      "soft_golden_evening_light",
+      "dim_natural_twilight",
+      "night_tone_with_indoor_tubelight"
+    ]
+  },
+  "street_scene": {
+    "location": "narrow_old_urban_south_indian_street",
+    "details": [
+      "old_buildings_faded_paint",
+      "hanging_signboards",
+      "visible_electrical_wires",
+      "small_shops",
+      "tea_stall",
+      "push_carts_fruits_snacks"
+    ],
+    "subjects": [
+      {
+        "group": "elderly_men",
+        "appearance_lock": true,
+        "action": "sitting_on_wooden_benches_reading_newspapers",
+        "motion": "very_subtle_page_turning_head_movement"
+      },
+      {
+        "group": "postman",
+        "appearance_lock": true,
+        "action": "walking_slowly_with_letter_bag",
+        "motion": "natural_walking_only"
+      },
+      {
+        "group": "street_vendors",
+        "appearance_lock": true,
+        "action": "standing_near_push_carts",
+        "motion": "minimal_body_shift"
+      },
+      {
+        "group": "children_playing_cricket",
+        "appearance_lock": true,
+        "action": "soft_background_play",
+        "motion": "slow_realistic_movements_no_fast_action"
+      },
+      {
+        "group": "people_at_tea_stall",
+        "appearance_lock": true,
+        "action": "casual_conversation",
+        "motion": "tiny_hand_head_movements"
+      }
+    ]
+  },
+  "indoor_scene": {
+    "location_transition": "camera_moves_gently_into_modest_home",
+    "lighting": "warm_tubelight_room_tone",
+    "subjects": [
+      {
+        "role": "father",
+        "appearance_lock": true,
+        "action": "sitting_on_wooden_chair_reading_newspaper",
+        "motion": "subtle_page_turning"
+      },
+      {
+        "role": "mother",
+        "appearance_lock": true,
+        "action": "stitching_clothes_carefully",
+        "motion": "slow_hand_movement_only"
+      },
+      {
+        "role": "children",
+        "appearance_lock": true,
+        "action": "sitting_cross_legged_doing_homework",
+        "motion": "tiny_writing_movements"
+      },
+      {
+        "role": "radio",
+        "action": "placed_on_table_playing_soft_audio",
+        "motion": "static_object"
+      }
+    ],
+    "camera_state": "static_observational_frame"
+  },
+  "mood": "nostalgic_peaceful_human_connection",
+  "audio_ambience": [
+    "soft_street_ambience",
+    "distant_cricket_sounds",
+    "low_room_tone",
+    "soft_radio_audio"
+  ],
+  "visual_rules": {
+    "no_face_change": true,
+    "no_body_change": true,
+    "no_cloth_change": true,
+    "no_environment_change": true,
+    "no_animation_style": true,
+    "no_fast_motion": true
+  },
+  "render_quality": {
+    "skin_texture": "realistic",
+    "detail_level": "high",
+    "cinematic_grading": "natural_documentary_colors"
+  }
+}
+
+Prompt3:
+{
+  "scene_type": "single_continuous_shot_with_indoor_transition",
+  "duration_seconds": 20,
+  "aspect_ratio": "16:9",
+  "style": "ultra_photorealistic_documentary",
+  "camera": {
+    "lens": "35mm",
+    "height": "eye_level",
+    "movement_part1": "very_slow_forward_dolly_with_soft_pan",
+    "movement_part2": "static_medium_frame",
+    "stability": "tripod_smooth",
+    "shake": "none",
+    "cut": "no_cuts_single_take"
+  },
+  "environment": {
+    "era": "south_india_pre_internet",
+    "modern_objects": "none",
+    "vehicles": "none",
+    "digital_screens": "none",
+    "advertisements": "none"
+  },
+  "temporal_progression": {
+    "time_flow": "late_evening_to_night_continuous",
+    "lighting_transition": [
+      "soft_golden_evening_light",
+      "dim_natural_twilight",
+      "night_tone_with_indoor_tubelight"
+    ]
+  },
+  "street_scene": {
+    "location": "narrow_old_urban_south_indian_street",
+    "details": [
+      "old_buildings_faded_paint",
+      "hanging_signboards",
+      "visible_electrical_wires",
+      "small_shops",
+      "tea_stall",
+      "push_carts_fruits_snacks"
+    ],
+    "subjects": [
+      {
+        "group": "elderly_men",
+        "appearance_lock": true,
+        "action": "sitting_on_wooden_benches_reading_newspapers",
+        "motion": "very_subtle_page_turning_head_movement"
+      },
+      {
+        "group": "postman",
+        "appearance_lock": true,
+        "action": "walking_slowly_with_letter_bag",
+        "motion": "natural_walking_only"
+      },
+      {
+        "group": "street_vendors",
+        "appearance_lock": true,
+        "action": "standing_near_push_carts",
+        "motion": "minimal_body_shift"
+      },
+      {
+        "group": "children_playing_cricket",
+        "appearance_lock": true,
+        "action": "soft_background_play",
+        "motion": "slow_realistic_movements_no_fast_action"
+      },
+      {
+        "group": "people_at_tea_stall",
+        "appearance_lock": true,
+        "action": "casual_conversation",
+        "motion": "tiny_hand_head_movements"
+      }
+    ]
+  },
+  "indoor_scene": {
+    "location_transition": "camera_moves_gently_into_modest_home",
+    "lighting": "warm_tubelight_room_tone",
+    "subjects": [
+      {
+        "role": "father",
+        "appearance_lock": true,
+        "action": "sitting_on_wooden_chair_reading_newspaper",
+        "motion": "subtle_page_turning"
+      },
+      {
+        "role": "mother",
+        "appearance_lock": true,
+        "action": "stitching_clothes_carefully",
+        "motion": "slow_hand_movement_only"
+      },
+      {
+        "role": "children",
+        "appearance_lock": true,
+        "action": "sitting_cross_legged_doing_homework",
+        "motion": "tiny_writing_movements"
+      },
+      {
+        "role": "radio",
+        "action": "placed_on_table_playing_soft_audio",
+        "motion": "static_object"
+      }
+    ],
+    "camera_state": "static_observational_frame"
+  },
+  "mood": "nostalgic_peaceful_human_connection",
+  "audio_ambience": [
+    "soft_street_ambience",
+    "distant_cricket_sounds",
+    "low_room_tone",
+    "soft_radio_audio"
+  ],
+  "visual_rules": {
+    "no_face_change": true,
+    "no_body_change": true,
+    "no_cloth_change": true,
+    "no_environment_change": true,
+    "no_animation_style": true,
+    "no_fast_motion": true
+  },
+  "render_quality": {
+    "skin_texture": "realistic",
+    "detail_level": "high",
+    "cinematic_grading": "natural_documentary_colors"
+  }
+}
